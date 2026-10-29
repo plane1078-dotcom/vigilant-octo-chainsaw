@@ -7,6 +7,11 @@ android {
     namespace = "com.kezhi.shike"
     compileSdk = 35
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
     defaultConfig {
         applicationId = "com.kezhi.shike"
         minSdk = 26
